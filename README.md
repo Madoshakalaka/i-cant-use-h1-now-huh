@@ -23,4 +23,10 @@ warning: `trunk-template` (bin "trunk-template") generated 2 warnings
     Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.13s
 ```
 
+## Hmmm
 
+`Cargo.toml` has two `yew-html-ext`. One new and one old.
+
+The new triggers the warning with nightly. The old doesn't. 
+
+Attached in [src/main.rs] also are two possible regressions where braceless style has become invalid.

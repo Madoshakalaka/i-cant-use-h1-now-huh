@@ -12,4 +12,7 @@ categories = ["gui", "wasm", "web-programming"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [dependencies]
 yew = { git="https://github.com/yewstack/yew", features=["csr"] }
+# new
 yew-html-ext = { git="https://github.com/its-the-shrimp/yew-html-ext", rev="78d29f9" }
+# old
+# yew-html-ext = { git="https://github.com/its-the-shrimp/yew-html-ext", rev="438db0e8547eae22f79a18f9851399c34e3ea8f6" }
