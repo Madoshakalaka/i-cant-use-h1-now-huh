@@ -29,4 +29,4 @@ warning: `trunk-template` (bin "trunk-template") generated 2 warnings
 
 The new triggers the warning with nightly. The old doesn't. 
 
-Attached in [src/main.rs](./src/main.rs) also are two possible regressions where braceless style has become invalid.
+Attached in [src/app.rs](./src/app.rs) also are two possible regressions where braceless style has become invalid.
